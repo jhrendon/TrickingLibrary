@@ -1,0 +1,6 @@
+.vs/
+.vscode/
+.dcokerignore/
+.gitignore/
+bin/
+obj/
