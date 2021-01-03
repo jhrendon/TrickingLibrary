@@ -11,6 +11,8 @@ jobs:
       - name: Prient files in there
         run: ls
       - name: Check dotnet
-        run: dotnet
+        run: dotnet build
+      - name: List files in directory
+        run: ls TrickingLibrary.API/ -R 
       - name: Check npm
-        run: npm
+        run: npm -v
