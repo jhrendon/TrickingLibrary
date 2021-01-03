@@ -10,3 +10,7 @@ jobs:
         run: pwd
       - name: Prient files in there
         run: ls
+      - name: Check dotnet
+        run: dotnet
+      - name: Check npm
+        run: npm
